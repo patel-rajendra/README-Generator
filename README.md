@@ -13,5 +13,6 @@ This is a command-line application that dynamically generates a professional REA
 - Uset enter email address then this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 - User click on the links in the Table of Contents then It taken to the corresponding section of the README
 
-The following image demonstrates the application functionality:
+The following video link demonstrates the application functionality:
 
+https://www.screencast.com/t/u4IGOcqvkJm
