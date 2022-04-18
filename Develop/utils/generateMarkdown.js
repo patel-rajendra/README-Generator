@@ -65,23 +65,23 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if(license === licenseArray[0])
   {
-    return "Find out more about ${licenseArray[0]} by clicking here:";
+    return "Find out more about " + licenseArray[0] + " by clicking here:";
   }
   else if(license === licenseArray[1])
   {
-    return "Find out more about ${licenseArray[1]} by clicking here:";
+    return "Find out more about " + licenseArray[1] + " by clicking here:";
   }
   else if(license === licenseArray[2])
   {
-    return "Find out more about ${licenseArray[2]} by clicking here:";
+    return "Find out more about " + licenseArray[2] + " by clicking here:";
   }
   else if(license === licenseArray[3])
   {
-    return "Find out more about ${licenseArray[3]} by clicking here:";
+    return "Find out more about " + licenseArray[3] + " by clicking here:";
   }
   else if(license === licenseArray[4])
   {
-    return "Find out more about ${licenseArray[4]} by clicking here:";
+    return "Find out more about " + licenseArray[4] + " by clicking here:";
   }
   else
   {
@@ -102,6 +102,7 @@ function generateMarkdown(data) {
   * [Usage](#usage)
   * [How to Contribute](#contributing)
   * [Tests](#test)
+  * [questions](#questions)
   
   ## License
   ${renderLicenseSection(data.license)}
@@ -124,6 +125,12 @@ function generateMarkdown(data) {
   ## Tests
   ${data.test}
 
+  ## Questions
+  If you have questions or you want to share comments, we will be glad to hear from you. Please contact at 
+  git hub username : ${data.username}
+  email : ${data.email}
+  Your questions:  
+  ${data.questions}
 `;
 }
 

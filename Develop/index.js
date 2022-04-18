@@ -61,6 +61,11 @@ const questions = [
         type: "input",
         name: "test",
         message: "What command should be run test?"
+    },
+    {
+        type: "input",
+        name: "questions",
+        message: "Enter any questions you may have"
     }
 ];
 

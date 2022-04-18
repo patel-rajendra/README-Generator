@@ -1,6 +1,6 @@
 # readmeGenerator
   ## Badges
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
   ## Table of Contents
   * [License](#license)
@@ -9,10 +9,11 @@
   * [Usage](#usage)
   * [How to Contribute](#contributing)
   * [Tests](#test)
+  * [questions](#questions)
   
   ## License
-  Find out more about ${licenseArray[0]} by clicking here:
-  https://opensource.org/licenses/MIT
+  Find out more about BSD 3 License by clicking here:
+  https://opensource.org/licenses/BSD-3-Clause
 
   ## Description
   This app generate professional readme file
@@ -31,3 +32,9 @@
   ## Tests
   
 
+  ## Questions
+  If you have questions or you want to share comments, we will be glad to hear from you. Please contact at 
+  git hub username : patel-rajendra
+  email : patelraj112@gmail.com
+  Your questions:  
+  test
