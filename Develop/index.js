@@ -37,13 +37,13 @@ const questions = [
             "Apache License 2.0",
             "BSD 3 License",
             "Mozilla Public License 2.0",
-            "None"
+            "Zlib"
         ]
         
     },
     {
         type: "input",
-        name: "installation",
+        name: "install",
         message: " Describe the installation steps",
         default: "To install the project follow these steps: - Install npm"
     },
@@ -66,7 +66,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName,data,err =>{
+    fs.writeFile(fileName,generateMarkdown(data),err =>{
         if(err)
             return console.log(err);
         else
@@ -79,7 +79,7 @@ function init() {
     inquirer
         .prompt(questions)
         .then((answers)=>{
-            writeToFile("README.md", answers);
+            writeToFile("readmeGenerator.md", answers);
         })
         .catch((err)=>{
             console.log(err);
